@@ -1,4 +1,4 @@
-"""
+'''
 distribution.py
 Author: Jack Meehan
 https://stackoverflow.com/questions/2932511/letter-count-on-a-string
@@ -23,6 +23,7 @@ pp
 yy
 m
 r
+
 
 Notice about this example:
 
