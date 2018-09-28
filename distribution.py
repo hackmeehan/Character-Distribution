@@ -1,8 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
-
+Author: Jack Meehan
+https://stackoverflow.com/questions/2932511/letter-count-on-a-string
 Assignment:
 
 Write and submit a Python program (distribution.py) that computes and displays 
@@ -37,9 +36,8 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 
-L = input('Please enter a string of text Ithe bigger the better): ')
+L = input('Please enter a string of text (the bigger the better): ')
 
-for i in L:
-    if i == L:
-        print(L*i)
+for i in range(0, len(L)):
+    L.count(str(i))
 
