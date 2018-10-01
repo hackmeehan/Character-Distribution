@@ -35,10 +35,18 @@ Notice about this example:
   For example, in the printout above, the letters e, h, l, p and y both occur twice 
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
-"""
+'''
 
 L = input('Please enter a string of text (the bigger the better): ')
+L = L.lower()
 
-for i in range(0, len(L)):
-    L.count(str(i))
-
+counts = []
+for i in L:
+    thiscount = L.count(i)
+    if i==' ':
+        pass
+    elif thiscount>0:
+        counts.append(thiscount)
+        s = (L.count(i)*i)
+        #print(s)
+        print(counts*str(i))
