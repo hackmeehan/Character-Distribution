@@ -39,14 +39,22 @@ Notice about this example:
 
 L = input('Please enter a string of text (the bigger the better): ')
 L = L.lower()
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-counts = []
+
+for i in alphabet:
+    if i>2:
+        print(i)
+    else:
+        pass
+
+'''counts = []
 for i in L:
     thiscount = L.count(i)
     if i==' ':
         pass
     elif thiscount>0:
         counts.append(thiscount)
-        s = (L.count(i)*i)
+        #s = (L.count(i)*i)
         #print(s)
-        print(counts*str(i))
+print(counts)'''
