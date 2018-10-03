@@ -42,19 +42,13 @@ L = L.lower()
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 
-for i in alphabet:
-    if i>2:
-        print(i)
-    else:
-        pass
 
-'''counts = []
-for i in L:
+counts = []
+for i in alphabet:
     thiscount = L.count(i)
-    if i==' ':
-        pass
+    if thiscount>1:
+        counts.append((L.count(i))*(i))
     elif thiscount>0:
-        counts.append(thiscount)
-        #s = (L.count(i)*i)
-        #print(s)
-print(counts)'''
+        counts.append(i)
+
+print(counts, end=" ")
