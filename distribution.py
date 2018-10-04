@@ -2,6 +2,7 @@
 distribution.py
 Author: Jack Meehan
 https://stackoverflow.com/questions/2932511/letter-count-on-a-string
+https://stackoverflow.com/questions/4659524/how-to-sort-by-length-of-string-followed-by-alphabetical-order
 Assignment:
 
 Write and submit a Python program (distribution.py) that computes and displays 
@@ -46,6 +47,9 @@ for i in alphabet:
     thiscount = L.count(i)
     if thiscount>1:
         counts.append((L.count(i))*(i))
-    elif thiscount>0:
+    elif thiscount > 0:
         counts.append(i)
-print(counts)
+l = counts
+for d in sorted(l, key=len, reverse=True):
+     print(d)
+
