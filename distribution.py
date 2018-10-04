@@ -2,7 +2,6 @@
 distribution.py
 Author: Jack Meehan
 https://stackoverflow.com/questions/2932511/letter-count-on-a-string
-https://www.decalage.info/en/python/print_list
 Assignment:
 
 Write and submit a Python program (distribution.py) that computes and displays 
@@ -42,8 +41,6 @@ L = input('Please enter a string of text (the bigger the better): ')
 L = L.lower()
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-
-
 counts = []
 for i in alphabet:
     thiscount = L.count(i)
@@ -51,6 +48,4 @@ for i in alphabet:
         counts.append((L.count(i))*(i))
     elif thiscount>0:
         counts.append(i)
-        
-
-print(counts, '\n')
+print(counts)
