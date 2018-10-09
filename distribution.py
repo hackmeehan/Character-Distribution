@@ -40,7 +40,7 @@ Notice about this example:
 
 L = input('Please enter a string of text (the bigger the better): ')
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-print('the distribution of characters in "'+L+'" is: ')
+print('The distribution of characters in "'+L+'" is: ')
 L = L.lower()
 counts = []
 for i in alphabet:
