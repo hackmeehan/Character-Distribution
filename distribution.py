@@ -41,7 +41,7 @@ Notice about this example:
 L = input('Please enter a string of text (the bigger the better): ')
 L = L.lower()
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-
+print('the distribution of characters in "'+L+'" is: ')
 counts = []
 for i in alphabet:
     thiscount = L.count(i)
