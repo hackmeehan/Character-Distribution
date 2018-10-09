@@ -1,7 +1,7 @@
 '''
 distribution.py
 Author: Jack Meehan
-https://stackoverflow.com/questions/2932511/letter-count-on-a-string
+Credit: https://stackoverflow.com/questions/2932511/letter-count-on-a-string
 https://stackoverflow.com/questions/4659524/how-to-sort-by-length-of-string-followed-by-alphabetical-order
 Assignment:
 
